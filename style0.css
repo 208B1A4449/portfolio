@@ -135,6 +135,28 @@ body {
     width: 100%;
   }
 }
+.container {
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+    }
 
+    .column {
+      width: 33.33%;
+      float: left;
+      padding: 10px;
+    }
+
+    @media (max-width: 576px) {
+      .column {
+        width: 100%;
+      }
+    }
+
+    /* Responsive images */
+    .responsive-image {
+      max-width: 100%;
+      height: auto;
+    }
 
 
